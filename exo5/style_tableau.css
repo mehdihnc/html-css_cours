@@ -1,0 +1,29 @@
+.grid-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.cell {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.header-cell {
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+
+
+/* Dans la feuille de style, le grid-table est défini comme un conteneur de grille avec trois colonnes de largeurs égales (1fr pour chaque colonne). La propriété gap ajoute un peu d'espace entre les cellules. Les cell sont stylisées pour ressembler aux cellules d'un tableau, et header-cell pour les en-têtes de colonnes.
+
+Explication
+Grid Container : .grid-table est notre conteneur de grille. En utilisant display: grid, nous définissons ce conteneur comme un grid container.
+
+Grid Items : Chaque .cell devient un grid item, placé automatiquement dans la grille par le navigateur.
+
+Grid Columns : grid-template-columns: repeat(3, 1fr); définit trois colonnes de largeur égale. 1fr signifie que chaque colonne prend une fraction égale de l'espace disponible.
+
+Gap : gap: 5px; ajoute un espace de 5 pixels entre les cellules pour une meilleure lisibilité. */

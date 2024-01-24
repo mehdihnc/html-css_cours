@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* Dans cet exemple, nous avons créé une barre de navigation (navbar) qui utilise Flexbox pour aligner les éléments de la liste (nav-list) horizontalement. L'usage de justify-content: center; dans .navbar centre la liste de navigation horizontalement. Chaque élément de la liste (nav-item) est affiché côte à côte grâce à display: flex; appliqué sur .nav-list. */

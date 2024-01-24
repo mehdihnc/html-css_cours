@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemple de Formulaire d'Inscription</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <form action="/submit_registration" method="post">
+        <div class="form-group">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-group">
+            <span>Sexe :</span>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Homme</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Femme</label>
+        </div>
+
+        <div class="form-group">
+            <span>Vos hobbies :</span>
+            <input type="checkbox" id="hobby1" name="hobbies" value="sport">
+            <label for="hobby1">Sport</label>
+            <input type="checkbox" id="hobby2" name="hobbies" value="reading">
+            <label for="hobby2">Lecture</label>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Âge :</label>
+            <select id="age" name="age">
+                <option value="20-30">20-30</option>
+                <option value="31-40">31-40</option>
+                <option value="41-50">41-50</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="S'inscrire">
+        </div>
+    </form>
+</body>
+</html>
