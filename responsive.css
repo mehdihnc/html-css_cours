@@ -1,1 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    main section h1 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    main section h1 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1025px) {
+    main section h1 {
+        font-size: 48px;
+    }
+}
